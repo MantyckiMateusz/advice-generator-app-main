@@ -1,0 +1,15 @@
+@import '../abstracts/variables';
+
+.container{
+    position: relative;
+    background-color: $dark-grayish-blue;
+    width: 300px;
+    padding: 1.5em;
+    border-radius: 12px;
+}
+
+@media screen and (min-width: 600px){
+    .container{
+        width: 500px;
+    }
+}

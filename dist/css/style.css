@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ------------------ colors ------------------ */
+/* primary */
+/* neutral */
+/* ------------------ typography ------------------ */
+body {
+  background-color: #1f2632;
+}
+
+body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.divider-container > img {
+  margin: 0 auto;
+}
+
+/* ------------------ colors ------------------ */
+/* primary */
+/* neutral */
+/* ------------------ typography ------------------ */
+.container {
+  position: relative;
+  background-color: #323a49;
+  width: 300px;
+  padding: 1.5em;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 500px;
+  }
+}
+
+/* ------------------ colors ------------------ */
+/* primary */
+/* neutral */
+/* ------------------ typography ------------------ */
+header {
+  text-align: center;
+  color: #52ffa8;
+  font-size: 0.7rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin: 1em 0;
+}
+
+/* ------------------ colors ------------------ */
+/* primary */
+/* neutral */
+/* ------------------ typography ------------------ */
+section {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: #cee3e9;
+  text-align: center;
+  margin: 1em 0;
+  line-height: 2.2rem;
+}
+
+/* ------------------ colors ------------------ */
+/* primary */
+/* neutral */
+/* ------------------ typography ------------------ */
+.dice-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #52ffa8;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  bottom: -55px;
+  margin: 0 auto;
+}
+
+.dice-container:hover {
+  -webkit-box-shadow: 0 0 25px #52ffa8;
+          box-shadow: 0 0 25px #52ffa8;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+@import '../abstracts/variables';
+
+header{
+    text-align: center;
+    color: $neon-green;
+    font-size: 0.7rem;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    letter-spacing: 4px;
+    margin: 1em 0;
+}
